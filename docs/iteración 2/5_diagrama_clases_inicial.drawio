@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="d4U36AYePUfktsFNlhfY">
+    <mxGraphModel dx="1406" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="39YFQNOiyyYOMB3TGKDq-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Activo" vertex="1">
+          <mxGeometry height="80" width="200" x="470" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="39YFQNOiyyYOMB3TGKDq-2" parent="39YFQNOiyyYOMB3TGKDq-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="#Id" vertex="1">
+          <mxGeometry height="40" width="70" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="39YFQNOiyyYOMB3TGKDq-3" edge="1" parent="1" source="39YFQNOiyyYOMB3TGKDq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;endArrow=classic;endFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="39YFQNOiyyYOMB3TGKDq-1">
+          <mxGeometry relative="1" x="0.0034" as="geometry">
+            <mxPoint x="570" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39YFQNOiyyYOMB3TGKDq-4" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Hipoteca&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- pareja: string&lt;br&gt;- valorInicial : Double&lt;br&gt;- cuotas : Int&lt;br&gt;- ingresoCuotas : Double&lt;br&gt;- fecha : date&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getValorInicial()&lt;br&gt;+ setValorInicial()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="190" x="280" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="39YFQNOiyyYOMB3TGKDq-5" edge="1" parent="1" source="39YFQNOiyyYOMB3TGKDq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="39YFQNOiyyYOMB3TGKDq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39YFQNOiyyYOMB3TGKDq-6" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Inversión&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- cantidad: Double&lt;br&gt;- valor : Double&lt;br&gt;- plazo : Int&lt;br&gt;- interes : Double&lt;br&gt;- fecha : date&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Inversion()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="190" x="670" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="39YFQNOiyyYOMB3TGKDq-11" edge="1" parent="1" source="39YFQNOiyyYOMB3TGKDq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39YFQNOiyyYOMB3TGKDq-17" edge="1" parent="1" source="39YFQNOiyyYOMB3TGKDq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="39YFQNOiyyYOMB3TGKDq-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39YFQNOiyyYOMB3TGKDq-18" edge="1" parent="1" source="39YFQNOiyyYOMB3TGKDq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="39YFQNOiyyYOMB3TGKDq-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39YFQNOiyyYOMB3TGKDq-10" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MSGF&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- fondosDisponibles : Double&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ calcularFondo() : Double&lt;br&gt;+ gestionarHipoteca : void&lt;br&gt;+ gestInversion : void&lt;br&gt;+ generarReporte : void&lt;br&gt;+ salir : void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="190" x="780" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="39YFQNOiyyYOMB3TGKDq-12" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Nota&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- valorNota : Double&lt;br&gt;- semestre : String&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ calcularProm() : void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="190" x="1020" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="39YFQNOiyyYOMB3TGKDq-13" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Matricula&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- costoSemestre : Double&lt;br&gt;- estado : String&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ condonar() : void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="190" x="1270" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="39YFQNOiyyYOMB3TGKDq-19" edge="1" parent="1" source="39YFQNOiyyYOMB3TGKDq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="39YFQNOiyyYOMB3TGKDq-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39YFQNOiyyYOMB3TGKDq-20" edge="1" parent="1" source="39YFQNOiyyYOMB3TGKDq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="39YFQNOiyyYOMB3TGKDq-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39YFQNOiyyYOMB3TGKDq-14" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Estudiante&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nombre: string&lt;br&gt;- cedula : Double&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ presentarNotas() : void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="190" x="1051" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="39YFQNOiyyYOMB3TGKDq-21" edge="1" parent="1" source="39YFQNOiyyYOMB3TGKDq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="39YFQNOiyyYOMB3TGKDq-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39YFQNOiyyYOMB3TGKDq-15" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;BecaCredito&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- montoAprobado : Double&lt;br&gt;- semestre : String&lt;br&gt;- estado : String&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ evaluarNota() : Void&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="190" x="1280" y="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
