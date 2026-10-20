@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="VncrunsvJZYmZvnMW7la">
+    <mxGraphModel dx="1406" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WYAgz5W7cC_FzE5eRmbg-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Empleado MSGF" vertex="1">
+          <mxGeometry height="110" width="60" x="60" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WYAgz5W7cC_FzE5eRmbg-6" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;" value="InterfazUsuario" vertex="1">
+          <mxGeometry height="90" width="140" x="160" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="WYAgz5W7cC_FzE5eRmbg-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;Clase Límite&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="185" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="WYAgz5W7cC_FzE5eRmbg-10" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" value="Calcular Fondos" vertex="1">
+          <mxGeometry height="80" width="90" x="320" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WYAgz5W7cC_FzE5eRmbg-15" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" value="Gestionar Hipoteca" vertex="1">
+          <mxGeometry height="80" width="110" x="420" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WYAgz5W7cC_FzE5eRmbg-16" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" value="Gestionar Inversión" vertex="1">
+          <mxGeometry height="80" width="110" x="540" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WYAgz5W7cC_FzE5eRmbg-17" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;" value="Generar Reporte" vertex="1">
+          <mxGeometry height="80" width="120" x="670" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="WYAgz5W7cC_FzE5eRmbg-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;Clase Control&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="304" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="WYAgz5W7cC_FzE5eRmbg-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;Clase Límite&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="680" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="WYAgz5W7cC_FzE5eRmbg-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;Clase Control&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="420" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="WYAgz5W7cC_FzE5eRmbg-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;Clase Control&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="540" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

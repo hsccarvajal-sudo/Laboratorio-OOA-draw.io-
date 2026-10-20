@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="msUHph7nC67Kfe6YWU7q">
+    <mxGraphModel dx="1172" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QOg2yv6Y4QKFQYFHfBon-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="395" width="395" x="152.5" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="QOg2yv6Y4QKFQYFHfBon-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;div&gt;Calcular Fondos&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="270" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QOg2yv6Y4QKFQYFHfBon-8" edge="1" parent="1" source="QOg2yv6Y4QKFQYFHfBon-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;shape=wire;dashed=1;endArrow=none;endFill=0;" target="QOg2yv6Y4QKFQYFHfBon-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QOg2yv6Y4QKFQYFHfBon-9" edge="1" parent="1" source="QOg2yv6Y4QKFQYFHfBon-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;endArrow=none;endFill=0;" target="QOg2yv6Y4QKFQYFHfBon-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QOg2yv6Y4QKFQYFHfBon-10" edge="1" parent="1" source="QOg2yv6Y4QKFQYFHfBon-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;endArrow=none;endFill=0;" target="QOg2yv6Y4QKFQYFHfBon-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QOg2yv6Y4QKFQYFHfBon-11" edge="1" parent="1" source="QOg2yv6Y4QKFQYFHfBon-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;endArrow=none;endFill=0;" target="QOg2yv6Y4QKFQYFHfBon-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QOg2yv6Y4QKFQYFHfBon-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Empleado MSGF" vertex="1">
+          <mxGeometry height="180" width="100" x="10" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="QOg2yv6Y4QKFQYFHfBon-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Gestionar Hipotecas" vertex="1">
+          <mxGeometry height="80" width="120" x="270" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="QOg2yv6Y4QKFQYFHfBon-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Gestionar Inversiones" vertex="1">
+          <mxGeometry height="80" width="120" x="270" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="QOg2yv6Y4QKFQYFHfBon-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Generar Recibo" vertex="1">
+          <mxGeometry height="80" width="120" x="270" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="QOg2yv6Y4QKFQYFHfBon-14" edge="1" parent="1" source="QOg2yv6Y4QKFQYFHfBon-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;shape=wire;dashed=1;endArrow=none;endFill=0;" target="QOg2yv6Y4QKFQYFHfBon-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QOg2yv6Y4QKFQYFHfBon-13" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Deudores (Pareja)" vertex="1">
+          <mxGeometry height="180" width="100" x="620" y="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
